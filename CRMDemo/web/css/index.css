@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+#top {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 90px;
+	z-index: 1;
+	background-color: #3366FF;
+	background-image:url(../images/top.png);
+	background-repeat:repeat-x;
+	color:#FFF;
+	
+}
+#left {
+	position: absolute;
+	left: 0px;
+	top: 91px;
+	width: 180px;
+	height: 85%;
+	z-index: 2;
+	background-color: #DDF0FB;
+}
+#main {
+	position: absolute;
+	left: 180px;
+	top: 91px;
+	width: 87%;
+	height: 85%;
+	z-index: 3; 
+}
+.showdate{ float:right;position: absolute; top:3px; left:80%}
+.showTitle{ float:right;position: absolute; top:50px; left:62%; font-size:14px}
+.show1{ margin-right:80px}
+.showTitle a{ color:#FFF}
+.showMenu{ margin-left:10px; color:#000; font-size:14px}
+.showMenu a{ color:#000; text-decoration:none}
+.showMenu ul{ 
+list-style-image:url(../images/page.gif); 
+margin-top:1px; margin-bottom:1px;}

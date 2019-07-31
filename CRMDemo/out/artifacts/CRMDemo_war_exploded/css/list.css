@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0px;
+background-color:#E9F7FF;} 
+  #main{ 
+  color:#000; 
+  font-size:14px; 
+  font-family:"Courier New", Courier, monospace; 
+  margin:0px;}
+  #topMenu{ 
+  background-image:url(../images/tbg.gif); 
+  height:32px;
+  border-radius:10px;
+  margin-bottom:10px;}
+  .tip{
+  display:inline-block;
+  margin:6px; 
+  font-weight:bold;
+  }
+  .btn{ 
+  float:right; 
+  background-image:url(../images/button/gaojichaxun.gif); 
+  width:70px; 
+  height:18px; 
+  border:0px;
+  margin:8px;
+  margin-right:10px;}
+  .add{ 
+  background-image:url(../images/button/tianjia.gif);
+  }
+  .dataTable{ 
+  text-align:center; 
+  border:1px solid #7AD3FE;  
+  margin:0px; 
+  border-collapse:collapse;
+  }
+  .dataTable tr:nth-child(even) {background-color:#FFF}
+  .dataTable tr:nth-child(odd) {background-color:#E8F7FF}
+  .dataTable tr.hbg{ background-color:#A6E0FF} 
+  #topMenu a{ float:right; margin:8px;}
+  #pageSpanId a{
+	text-decoration: none;
+	}

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+body{ 
+  margin:0px;
+  background-color:#E9F7FF;
+  font-family:"Courier New", Courier, monospace;
+  font-size:14px;} 
+ #topMenu{ 
+  background-image:url(../images/tbg.gif); 
+  height:32px;
+  border-radius:10px}
+  .tip{ 
+  display:inline-block;
+  margin:6px; 
+  font-weight:bold;
+  }
+ .btn{ 
+  float:right; 
+  background-image:url(../images/button/save.gif); 
+  width:43px; 
+  height:18px; 
+  border:0px;
+  margin:8px;}
+  .add{ 
+  background-image:url(../images/button/tuihui.gif);
+  }
+  #addFrom{ 
+  margin-left:80px;
+  margin-top:10px; 
+  font-size:14px;
+  font-family:"Courier New", Courier, monospace;}
+  #addFrom tr{ line-height:25px} 
+  td>span{ color:#F00}
